@@ -1,0 +1,77 @@
+.Icon {
+    display: flex;
+   flex-direction: column;
+    width: auto;
+}
+.heading{
+    font-family: "Times New Roman";
+    color: blue;
+}
+
+.header {
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: gray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    padding: 5px;
+    font-size: 16px;
+    align-self: center;
+    width: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.auth-cart {
+    display: flex;
+    gap: 10px;
+}
+
+.login-button, .cart-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#007bff;
+    color: #0f0808;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+.cart-button {
+    background-color: #28a73f;
+    color: white;
+}
+
+.App-logo {
+    width: 50px;
+    height: 20px;
+    margin-top: 10px;
+}
