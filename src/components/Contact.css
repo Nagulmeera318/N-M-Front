@@ -1,0 +1,29 @@
+/* src/components/Contact.css */
+.Contact {
+    background-color: hsl(125, 13%, 18%);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .Contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .Contact p {
+    margin: 5px 0;
+  }
+  
+  .Contact svg {
+    margin: 10px;
+    width: 24px;
+    height: 24px;
+    fill: green;
+    cursor: pointer;
+  }
+  
+  .Contact svg:hover {
+    fill: #fba161; /* Add a hover effect */
+  }
+  

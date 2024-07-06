@@ -1,11 +1,12 @@
 import React from "react";
-import { IoMdContact } from "react-icons/io";
-import "./Products.css";
+import { RiMenu2Fill } from "react-icons/ri";
+import "./Header.css";
 
-const Products = () => {
+const Header = () => {
     return (
         <div className="Icon">
             <div className="header">
+            <RiMenu2Fill />
                 <h1 className="heading">
                     Fashion
                 </h1>
@@ -19,4 +20,4 @@ const Products = () => {
     );
 }
 
-export default Products;
+export default Header;
