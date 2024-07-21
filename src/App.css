@@ -4,12 +4,11 @@
   flex-direction: column;
   min-height: 100vh;
   text-align: center;
-  overflow: hidden; /* Prevents the entire page from scrolling */
 }
 
 .Content {
   flex: 1;
-  overflow-y: scroll;
+  overflow-y: auto; /* Allows scrolling within the Content area */
   padding-bottom: 60px; /* Space for the fixed footer */
 }
 
@@ -17,9 +16,8 @@
   background-color: hsl(125, 13%, 18%);
   color: red;
   padding: 20px;
-  position: fixed;
   bottom: 0;
-  width: 100%;
+  width: auto;
   text-align: center;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }

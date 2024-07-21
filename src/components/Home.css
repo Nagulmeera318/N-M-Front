@@ -1,0 +1,51 @@
+.home-layout {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 15%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .offers-left {
+    order: -1;
+  }
+  
+  .offers-right {
+    order: 1;
+  }
+  
+  .home-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .category-item {
+    flex: 1 0 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .category-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .offer-item {
+    background-color: #e2e2e2;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+  }
+  

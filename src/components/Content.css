@@ -1,0 +1,149 @@
+.content-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  .hero-section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3em;
+    color: #333;
+  }
+  
+  .hero-section p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .categories-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .categories-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .category {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .category img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .category h3 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .offers-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .offers-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .offers {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .offer {
+    width: 30%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative; /* Add relative positioning for absolute positioning of text */
+  }
+  
+  .offer img {
+    width: 350px; /* Make image fill the container */
+    height: 350px; /* Fix the height of the image */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px; /* Optional: make the image corners rounded */
+  }
+  
+  .offer p {
+    position: absolute; /* Position the text absolutely */
+    bottom: 10px; /* Position it at the bottom */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Adjust the position to center */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a background with transparency */
+    color: white; /* White text color */
+    padding: 10px; /* Add some padding */
+    border-radius: 5px; /* Optional: round the corners of the background */
+    font-size: 1.2em;
+    width: 90%; /* Ensure the text container doesn't exceed the image width */
+    text-align: center; /* Center the text */
+  }
+  
+  .contact-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .contact-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1.2em;
+    color: #666;
+  }
+
+.view-all-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #4D4D4D;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-all-button:hover {
+    background-color: #333;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.recently-viewed-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Other existing styles */
+
+  

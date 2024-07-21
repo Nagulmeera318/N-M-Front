@@ -1,22 +1,21 @@
 .Icon {
-    display: flex;
-   flex-direction: column;
-    width: auto;
-}
-.heading{
-    font-family: "Times New Roman";
-    color: black;
+    position: fixed; /* Fixes the position of the header */
+    top: 0; /* Positions the header at the top */
+    left: 0; /* Aligns the header to the left */
+    width: 100%; /* Makes the header span the full width of the viewport */
+    background-color: skyblue; /* Ensure the background is set */
+    z-index: 1000; /* Keeps the header above other content */
 }
 
 .header {
-    width: auto;
+    width: auto; /* Make sure header spans full width */
     height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: skyblue;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: skyblue; /* Background color of header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for visibility */
 }
 
 .search-bar {
@@ -33,17 +32,46 @@
     gap: 10px;
 }
 
+.login-dropdown-container {
+    position: relative;
+}
+
+.icon {
+    margin-left: 8px; /* Space between text and icon */
+    font-size: 20px; /* Size of the icons */
+    vertical-align: middle; /* Align icon vertically with text */
+}
+
 .login-button, .cart-button {
+    display: flex;
+    align-items: center; /* Center align text and icon */
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color:#4D4D4D;
+    background-color: #4D4D4D;
     color: whitesmoke;
 }
 
+.cart-button {
+    background-color: #6F7033;
+    color: white;
+}
+
 .dropdown-menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.login-dropdown-menu {
     position: absolute;
     top: 40px;
     right: 0;
@@ -62,12 +90,6 @@
     width: 100%;
     text-align: left;
     cursor: pointer;
-}
-
-
-.cart-button {
-    background-color: #6F7033;
-    color: white;
 }
 
 .App-logo {
