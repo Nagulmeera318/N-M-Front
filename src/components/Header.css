@@ -32,7 +32,8 @@
     gap: 10px;
 }
 
-.login-dropdown-container {
+.login-dropdown-container,
+.cart-dropdown-container {
     position: relative;
 }
 
@@ -59,10 +60,11 @@
     color: white;
 }
 
-.dropdown-menu {
+.dropdown-menu,
+.login-dropdown-menu,
+.cart-dropdown-menu {
     position: absolute;
     top: 40px;
-    left: 0;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc;
@@ -71,16 +73,16 @@
     z-index: 1000;
 }
 
+.dropdown-menu {
+    left: 0;
+}
+
 .login-dropdown-menu {
-    position: absolute;
-    top: 40px;
     right: 0;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    overflow: hidden;
-    z-index: 1000;
+}
+
+.cart-dropdown-menu {
+    right: 0;
 }
 
 .dropdown-item {

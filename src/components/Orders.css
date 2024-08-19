@@ -1,0 +1,42 @@
+.orders-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.orders-heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.orders-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-product {
+    font-weight: bold;
+}
+
+.order-quantity, .order-price {
+    font-size: 14px;
+    color: #555;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+}
+
+.error {
+    color: red;
+}
