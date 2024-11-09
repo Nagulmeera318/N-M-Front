@@ -45,15 +45,16 @@ const Content = () => {
         <h2>Exclusive Offers</h2>
         <div className="offers">
           <div className="offer">
-            <img src="https://i.ibb.co/QffhfCW/kids.jpg" alt="Men's Fashion" />
+            <img  className="image" src="https://i.ibb.co/QffhfCW/kids.jpg" alt="Men's Fashion" />
             <p>winter Sale: Up to 50% off!</p>
           </div>
           <div className="offer">
-            <img src="https://i.ibb.co/b3gJKZN/men-s.png" alt="Women's Fashion" />
+            <img src="https://i.ibb.co/b3gJKZN/men-s.png" 
+            className="image"alt="Women's Fashion" />
             <p>Buy One Get One Free on select items</p>
           </div>
           <div className="offer">
-            <img src="https://i.ibb.co/gVB3kv1/women-s.jpg" alt="Kids' Fashion" />
+            <img src="https://i.ibb.co/gVB3kv1/women-s.jpg" className="image" alt="Kids' Fashion" />
             <p>Free shipping on orders over 499</p>
           </div>
         </div>
